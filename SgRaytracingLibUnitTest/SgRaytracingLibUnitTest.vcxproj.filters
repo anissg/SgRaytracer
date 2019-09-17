@@ -15,18 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Synthese d%27images\SgRaytracer\SgRaytracer\SgRaytracingLibUnitTest\stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\Synthese d%27images\SgRaytracer\SgRaytracer\SgRaytracingLibUnitTest\targetver.h">
+    <ClInclude Include="..\..\..\Synthese d%27images\SgRaytracer\SgRaytracingLibUnitTest\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Synthese d%27images\SgRaytracer\SgRaytracer\SgRaytracingLibUnitTest\stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Synthese d%27images\SgRaytracer\SgRaytracer\SgRaytracingLibUnitTest\unittest1.cpp">
+    <ClCompile Include="Vector3Tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

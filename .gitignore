@@ -32,3 +32,14 @@
 *.app
 /SgRaytracer/.vs/SgRaytracer/v15
 /.vs
+/Debug
+/Release
+/SgRaytracer/x64/Debug
+/SgRaytracer/Release
+/SgRaytracer/Debug
+/SgRaytracingLib/Debug
+/SgRaytracingLib/Release
+/SgRaytracingLib/x64/Debug
+/SgRaytracingLib/Win32/Debug
+/SgRaytracingLibUnitTest/x64/Debug
+/SgRaytracingLibUnitTest/Debug

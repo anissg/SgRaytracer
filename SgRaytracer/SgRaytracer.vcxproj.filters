@@ -15,15 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Synthese d%27images\SgRaytracer\SgRaytracer\SgRaytracer\pch.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Synthese d%27images\SgRaytracer\SgRaytracer\SgRaytracer\pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Synthese d%27images\SgRaytracer\SgRaytracer\SgRaytracer\SgRaytracer.cpp">
+    <ClCompile Include="..\..\..\Synthese d%27images\SgRaytracer\SgRaytracer\SgRaytracer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
