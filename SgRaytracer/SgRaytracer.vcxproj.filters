@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Synthese d%27images\SgRaytracer\SgRaytracer\SgRaytracer.cpp">
+    <ClCompile Include="SgRaytracer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Synthese d%27images\SgRaytracer\SgRaytracingLib\Inc\Clamp.h" />
+    <ClInclude Include="Inc\Clamp.h" />
     <ClInclude Include="Inc\Image.h" />
     <ClInclude Include="Inc\Camera.h" />
     <ClInclude Include="Inc\OrthographicCamera.h" />

@@ -36,7 +36,7 @@
     <ClInclude Include="Inc\Image.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\Synthese d%27images\SgRaytracer\SgRaytracingLib\Inc\Clamp.h">
+    <ClInclude Include="Inc\Clamp.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\Synthese d%27images\SgRaytracer\SgRaytracingLibUnitTest\RayTests.cpp" />
+    <ClCompile Include="RayTests.cpp" />
     <ClCompile Include="Vector3Tests.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
