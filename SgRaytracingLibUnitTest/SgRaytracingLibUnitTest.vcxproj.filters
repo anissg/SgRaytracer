@@ -15,12 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Synthese d%27images\SgRaytracer\SgRaytracingLibUnitTest\targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Vector3Tests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Synthese d%27images\SgRaytracer\SgRaytracingLibUnitTest\RayTests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

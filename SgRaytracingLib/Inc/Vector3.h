@@ -16,6 +16,7 @@ public:
 	Vector3(const Vector3& o);
 
 	// Operators
+	bool operator==(const Vector3& o)const;
 	Vector3 operator+(const Vector3& o);
 	Vector3& operator+=(const Vector3& o);
 	Vector3 operator-()const;
