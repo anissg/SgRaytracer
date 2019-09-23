@@ -10,13 +10,9 @@ int main()
 	Camera* camera = new OrthographicCamera(Vector3(0, 0, 0), Vector3(0, 0, 1), Width, Height);
 
 	std::vector<Sphere> spheres;
-	Sphere* sphere = nullptr;
-
-	sphere = new Sphere(Vector3(100, 0, 150), 100);
-	spheres.push_back(*sphere);
-
-	sphere = new Sphere(Vector3(200, 0, 200), 120);
-	spheres.push_back(*sphere);
+	
+	spheres.push_back(Sphere(Vector3(100, Height / 2.0f, 150), 100));
+	spheres.push_back(Sphere(Vector3(0, -Height / 2.0f, 150), 100));
 
 	// rendering
 	Image renderImg = camera->Render(spheres);

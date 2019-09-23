@@ -12,8 +12,8 @@ class Ray
 public:
 	Ray(Vector3 origin, Vector3 direction);
 
-	std::optional<float> Intersect(Sphere s);
-	std::optional<float> Intersect(std::vector<Sphere> sList);
+	std::optional<float> Intersect(Sphere s) const;
+	std::optional<float> Intersect(std::vector<Sphere> sList) const;
 
 };
 

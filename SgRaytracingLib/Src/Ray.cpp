@@ -7,10 +7,13 @@ Ray::Ray(Vector3 origin, Vector3 direction)
 	this->direction = direction;
 }
 
-std::optional<float> Ray::Intersect(Sphere sphere)
+std::optional<float> Ray::Intersect(Sphere sphere) const
 {
 	float R = sphere.GetRaduis();
 	Vector3 oc = origin - sphere.GetCenter();
+
+    if(oc.magnitude() < R)
+        return {};
 
 	float b = direction * oc;
 	float c = (oc * oc) - (R * R);
@@ -29,14 +32,14 @@ std::optional<float> Ray::Intersect(Sphere sphere)
 	return distance;
 }
 
-std::optional<float> Ray::Intersect(std::vector<Sphere> sList)
+std::optional<float> Ray::Intersect(std::vector<Sphere> sList) const
 {
 	float minDist = FLT_MAX;
 	
 	for (Sphere sphere : sList)
 	{
 		float dist = Intersect(sphere).value_or(FLT_MAX);
-		minDist = fmin(dist, FLT_MAX);
+		minDist = fmin(dist, minDist);
 	}
 
 	if (minDist < FLT_MAX)

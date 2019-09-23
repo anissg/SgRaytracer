@@ -3,22 +3,22 @@
 #include <vector>
 #include <string>
 
-#include "Vector3.h"
+#include "Color.h"
 
 class Image
 {
 private:
 	int width;
 	int height;
-	std::vector<Vector3> pixels;
+	std::vector<Color> pixels;
 public:
 	static const float RGBScale;
 	static const float RGBMax;
 
 	Image(int width, int height);
-	void setPixels(const std::vector<Vector3>& pixels);
-	std::vector<Vector3> getPixels();
-	void setPixel(int x, int y, Vector3 color);
+	void setPixels(const std::vector<Color>& pixels);
+	std::vector<Color> getPixels();
+	void setPixel(int x, int y, Color color);
 	Vector3 getPixel(int x, int y);
 	bool saveImage(const std::string& fileName);
 };

@@ -10,8 +10,7 @@ OrthographicCamera::OrthographicCamera(Vector3 origin, Vector3 direction, int Wi
 Image OrthographicCamera::Render(const std::vector<Sphere>& spheres)
 {
 	Image img = Image(Width, Height);
-	Vector3 color;
-	Vector3 pixel;
+	Color pixel;
 
 	for (int x = 0; x < Width; x++)
 	{
@@ -22,9 +21,9 @@ Image OrthographicCamera::Render(const std::vector<Sphere>& spheres)
 
 			std::optional<float> distance = ray.Intersect(spheres);
 			if (distance.has_value())
-				pixel = Vector3(1, 1, 1)/* * (distance.value() / 300)*/;
+				pixel = Color(1, 1, 1)/* * (distance.value() / 300)*/;
 			else
-				pixel = Vector3(0, 0, 0);
+				pixel = Color(0, 0, 0);
 
 			img.setPixel(x, y, pixel);
 		}

@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Inc\Color.h" />
     <ClInclude Include="Inc\Clamp.h" />
     <ClInclude Include="Inc\Image.h" />
     <ClInclude Include="Inc\Camera.h" />
@@ -27,8 +28,11 @@
     <ClInclude Include="Inc\Ray.h" />
     <ClInclude Include="Inc\Vector3.h" />
     <ClInclude Include="Inc\targetver.h" />
+    <ClInclude Include="Inc\Light.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Src\Color.cpp" />
+    <ClCompile Include="Src\Light.cpp" />
     <ClCompile Include="Src\Image.cpp" />
     <ClCompile Include="Src\Camera.cpp" />
     <ClCompile Include="Src\OrthographicCamera.cpp" />
