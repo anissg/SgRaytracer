@@ -1,2 +1,2 @@
 # SgRaytracer
-a simple raytracer writted for learning pupose
+c++ raytracer written for learning pupose
